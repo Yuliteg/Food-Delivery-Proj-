@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+
+       <title>Document</title>
+</head>
+         <body>
+
+            <nav class="navbar page">
+                <div class="nav-center">
+                  <!-- links -->
+                  <div>
+                    <ul class="nav-links">
+                      <li>
+                        <a href="index.html" class="nav-link">
+                          Shop
+                        </a>
+                      </li>
+            
+                      <li class="line"></li>
+
+                      <li>
+                        <a href="shoppingCart.html" class="nav-link">
+                          Shopping Cart
+                        </a>
+                      </li>            
+                    </ul>
+                  </div>
+                   </nav>
+                  
+
+               
+                   <div class="container">
+                    <div class="content">
+                        
+                      <div class="right-side">
+                        <div class="topic-text">
+                            Information about delivery</div>
+
+                        <form action="#" id="form">
+                          <div class="input-box">
+                            <input type="text" placeholder="Your name" class="_req" name="name" />
+                          </div>
+                          <div class="input-box">
+                            <input type="text" placeholder="Your email" class="_req" name="email" />
+                          </div>
+                          <div class="input-box">
+                            <input type="text" placeholder="Your telephone number" class="_req" name="tel" />
+                          </div>
+                          <div class="input-box">
+                            <input type="text" placeholder="Your address" class="_req" name="address"/>
+                          </div>
+                          <div class="input-box message-box">
+                            <textarea placeholder="Spetial wishes" name="message"></textarea>
+                          </div>
+                          <div class="button">
+                            <button type="submit" value="Send" class="btn-button">Submit</button> 
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+
+
+                    <div class="basket">
+                        <div class="basket-container">
+                           <h1 class="basket-text">Basket</h1>
+
+                            
+                           <footer>
+                              <h3 class="cart-total text-slanted">
+                                Total: $12.99
+                              </h3>
+                          </footer>
+
+                               <div class="prodbasket-container">
+                                <!-- <article class="cart-item show">
+                                  <img src="https://mcdonalds.si/img/df772d41-c1e0-4034-9e6c-c7952fabb7c7/bigtasty.png?fm=jpg&q=80&fit=max&crop=800%2C800%2C0%2C0&w=500&h=500"
+                                  class="cart-item-img"
+                                  alt="pizza"
+                                />  
+                                <div>
+                                  <h4 class="cart-item-name">Burger</h4>
+                                  <p class="cart-item-price">$5</p>
+                                  <button class="cart-item-remove-btn" data-id="${id}">remove</button>
+                                </div>
+                              
+                                <div>
+                                  <button class="cart-item-increase-btn" data-id="${id}">
+                                    <i class="fas fa-chevron-up"></i>
+                                  </button>
+                                  <p class="cart-item-amount" data-id="${id}">0</p>
+                                  <button class="cart-item-decrease-btn" data-id="${id}">
+                                    <i class="fas fa-chevron-down"></i>
+                                  </button>
+                                </div>
+                           </article> -->
+                               </div>
+                            
+
+
+
+                        </div>
+
+                  </div>
+                </div>
+
+                <div class="modal">
+                  <div class="modal__dialog">
+                      <div class="modal__content">
+                              <div data-close class="modal__close">&times;</div>
+                              <div class="modal__title">Your order has been accepted for processing</div>
+                              <button class="btn btn_green btn_min">Ok</button>
+                      </div>
+                  </div>
+              </div>
+          
+              <script type="module" src="./shoppingCart.js"></script>
+            </body>
+            
+            </html>
+
+    
+</body>
+</html>
