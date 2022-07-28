@@ -58,7 +58,7 @@ const displayProdInBasket = (product, element) => {
          <button class="cart-item-remove-btn" data-id="${id}">remove</button>
        </div>
      
-       <div>
+       <div class='amount-media'>
          <button class="cart-item-increase-btn" data-id="${id}">
            <i class="fas fa-chevron-up"></i>
          </button>
