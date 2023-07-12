@@ -2,8 +2,6 @@ import { getStorageItem as getStorage, setStorageItem } from "./utils.js";
 import {findProduct} from './storeLogic.js'
 
 let products = getStorage()
-
-
  const addToCart = (id) => {
 
    let item = products.find((cartItem) => cartItem.id === id)
@@ -15,10 +13,5 @@ let products = getStorage()
    }
 
 }
-
-
-
-
-
 
 export default addToCart

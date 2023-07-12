@@ -1,7 +1,6 @@
 import fetchProd from "./fetchProducts.js";
 import {display} from "./displayProd.js";
 
-
 const categoryContainer = document.querySelector('.btn-container')
 const container = document.querySelector('.products-container')
 
@@ -26,7 +25,6 @@ const displayCategory = (product) => {
 
   const filterBtn = categoryContainer.querySelectorAll('.filter-btn');
 
-
   filterBtn.forEach(function (btn) {
      btn.addEventListener('click', function(e) {
         const categories = e.currentTarget.dataset.id;
@@ -42,19 +40,6 @@ const displayCategory = (product) => {
          }
      })
   })
-
  }
-
-
-
-
-
- 
-
-
-
-
-
-
  
  export default displayCategory;

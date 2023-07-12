@@ -4,9 +4,6 @@ import displayCategory from "./category.js";
 
 
 const container = document.querySelector('.products-container')
-// const loading = document.querySelector('.page-loading')
-
-
 
 const init = async() => {
     const products = await getProducts();

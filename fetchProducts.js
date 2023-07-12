@@ -8,5 +8,4 @@ const fetchProd = async() => {
       return response
 }
 
-
 export default fetchProd;

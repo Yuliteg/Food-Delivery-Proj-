@@ -1,7 +1,6 @@
 import {
    addProductToBasket
 } from './utils.js'
-// import { setStorageItem, getStorageItem } from './utils.js';
 
 const container = document.querySelector('.products-container')
 
@@ -41,11 +40,7 @@ const display = (product, element) => {
 
       })
    })
-
-
 }
-
-
 
 export {
    display

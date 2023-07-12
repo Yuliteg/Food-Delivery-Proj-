@@ -73,11 +73,7 @@ const displayProdInBasket = (product, element) => {
          `
 
     }).join("")
-
-
 }
-
-
 
 
 function setupCartFunctionality() {
@@ -119,12 +115,9 @@ const closeModals = document.querySelector('.btn_green')
 const form = document.getElementById('form')
 const button = document.querySelector('.btn-button')
 
-
-
   button.addEventListener('click', openModal)
   closeModal.addEventListener('click', closeModalWind)
   closeModals.addEventListener('click', closeModalWind)
-
 
 
 function openModal() {

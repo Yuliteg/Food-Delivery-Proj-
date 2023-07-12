@@ -27,7 +27,6 @@ const getLoaclStorageData = () => {
 
 const addProductToBasket = (id) => {
 
-
   let product = findProduct(id);
   if (!product) {
     let basketProduct = {
